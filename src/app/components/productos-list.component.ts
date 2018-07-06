@@ -19,6 +19,7 @@ export class ProductosListComponent{
 
 	ngOnInit(){
 		console.log('Componente listado de productos cargado');
+/*
 		this._productoService.getArticulos().subscribe(
 			result => {
 				this.productos = result;
@@ -30,5 +31,7 @@ export class ProductosListComponent{
 				console.log(error)
 			}
 		)
+*/
+		this.productos = this._productoService.getArticulos();
 	}
 }

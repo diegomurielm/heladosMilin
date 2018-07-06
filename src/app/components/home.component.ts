@@ -10,7 +10,7 @@ export class HomeComponent{
 	public titulo:string;
 
 	constructor(){
-		this.titulo = "WebApp de productos";
+		this.titulo = "Productos destacados";
 	}
 
 	onInit(){

@@ -4,7 +4,7 @@
 <div *ngIf="producto" class="row">
 	<div class="col-lg-4" *ngIf="producto.imagen">
 		<br>
-		<img src="producto.imagen" class="imagen_relleno"/>
+		<img src="{{producto.imagen}}" class="producto_imagen"/>
 	</div>
 	<div class="col-lg-4" *ngIf="!producto.imagen">
 		<br>

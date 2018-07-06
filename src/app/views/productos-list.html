@@ -9,8 +9,8 @@
 		<div class="col-lg-3" *ngFor="let producto of productos">
 			<div class="img-thumbnail">
 				<div *ngIf="producto.imagen" class="imagen_container">
-<!--					<img src="http://localhost:8080/{{producto.imagen}}" class="producto_imagen"/>  -->
-					<img src="" class="imagen_relleno"/>
+					<img src="{{producto.imagen}}" class="producto_imagen"/>
+<!--					<img src="" class="imagen_relleno"/>  -->
 				</div>
 				<div *ngIf="!producto.imagen">
 <!--					<img src="http://localhost:8080/noImagen.jpg" class="imagen_relleno"/>  -->
